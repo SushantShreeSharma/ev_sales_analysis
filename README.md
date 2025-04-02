@@ -6,7 +6,7 @@ Assumed Columns:
 EV_Sales: The target variable representing the number of electric vehicles sold (assumed based on the code).
 State: A categorical variable indicating the state in India.
 Other potential numerical or categorical features (not explicitly listed but implied by the use of df.drop('EV_Sales', axis=1)).
-Initial Exploration:
+Initial Exploration: 
 Basic information about the dataset (e.g., data types, number of entries) is displayed using df.info().
 Missing values are checked with df.isnull().sum()
 Methodology  
