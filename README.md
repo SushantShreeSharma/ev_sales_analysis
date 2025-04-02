@@ -9,7 +9,7 @@ Other potential numerical or categorical features (not explicitly listed but imp
 Initial Exploration:
 Basic information about the dataset (e.g., data types, number of entries) is displayed using df.info().
 Missing values are checked with df.isnull().sum()
-Methodology
+Methodology  
 Data Preprocessing:
 Handling Missing Values: Missing values are filled with the mean of each column using df.fillna(df.mean(), inplace=True). This assumes numerical columns; categorical missing values might need different handling in practice.
 Categorical Encoding: The State column is converted into dummy variables using one-hot encoding (pd.get_dummies), with the first category dropped to avoid multicollinearity.
