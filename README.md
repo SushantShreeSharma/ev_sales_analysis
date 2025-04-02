@@ -3,7 +3,7 @@ The project aims to analyze and predict Electric Vehicle (EV) sales across diffe
 Dataset
 Source: The dataset is loaded from a CSV file named Electric Vehicle Sales by State in India.csv.
 Assumed Columns:
-EV_Sales: The target variable representing the number of electric vehicles sold (assumed based on the code).
+EV_Sales: The target variable representing the number of electric vehicles sold (assumed based on the code). 
 State: A categorical variable indicating the state in India.
 Other potential numerical or categorical features (not explicitly listed but implied by the use of df.drop('EV_Sales', axis=1)).
 Initial Exploration: 
